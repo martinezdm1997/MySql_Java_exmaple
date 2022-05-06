@@ -1,2 +1,2 @@
 # MySql_Java_exmaple
-This is a java project I wrote for my database class about a year ago. It combines both Java and MySQL.
+This is a java project I wrote for my database class about a year ago. For the class we were expected to have java connect and make entries/pull data from mySQL.The code gave options to the user of adding to the database and where. The info was randomly generated due to it not being actually used by a real company.The code also pulls from the database to answer pre selected question eg. List The name and Specialty of employees who have a bike with less than or equal to 2 hours of work.
