@@ -78,7 +78,7 @@ public class Main {
 		return ranpay[x];
 	}
 	public static void add_cust() throws Exception {//Adds customer with random data
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","pizza1997");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","password");
 		Statement stmt= con.createStatement();
 		String Cname=ranname();
 		int C_Phone=(int)(Math.random()*(999999999-100000000+1)+100000000);
