@@ -30,7 +30,7 @@ public class Main {
 		return issu;
 	}
 	public static void add_emp() throws Exception {//Adds employee with random data 
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","pizza1997");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","password");
 		Statement stmt= con.createStatement();
 		String Ename;
 		int salary;
@@ -108,7 +108,7 @@ public class Main {
 		return ranpay[x];
 	}
 	public static void add_bike() throws Exception {//Adds bike with random data
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","pizza1997");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","password");
 		Statement stmt= con.createStatement();
 		String Brand=ranbran();
 		String Issue=ransknis();
@@ -119,7 +119,7 @@ public class Main {
 	
 	}
 	public static void add_in() throws Exception {//Adds Brought_In where the IDs as are specified but everything else is random data
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","pizza1997");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","password");
 		Statement stmt= con.createStatement();
 		Scanner myin = new Scanner(System.in);
 		System.out.println("ID of customer who brought in bike");
@@ -134,7 +134,7 @@ public class Main {
 	
 	}
 	public static void add_work() throws Exception {//Adds Work_On where the IDs as are specified but everything else is random data
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","pizza1997");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","password");
 		Statement stmt= con.createStatement();
 		Scanner myin = new Scanner(System.in);
 		System.out.println("ID of Employee who is working on the bike");
@@ -195,7 +195,7 @@ public class Main {
 		
 	}
 	public static void ansq() throws Exception{//Menu that ask and display qurries
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","pizza1997");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/repairshop","root","password");
 		Statement stmt= con.createStatement();
 		Scanner myin = new Scanner(System.in);
 		int mainchoice = 0;
